@@ -1,36 +1,42 @@
 # Xiangqi Arena
 
+<div align="left" style="font-size:16px; line-height:1.6">
 
+<div align="left">
+  <img width="49%" alt="image" src="https://github.com/user-attachments/assets/247f32b7-852f-455c-8c1f-63bb152005ea" />
+  <img width="49%" alt="image" src="https://github.com/user-attachments/assets/60ba44e8-8719-404d-8332-6ec3f1013f4c" />
+  <br/>
+  <img width="49%" alt="image" src="https://github.com/user-attachments/assets/29eee928-1ce8-4980-8274-e111ecf999d6" />
+  <img width="49%" alt="image" src="https://github.com/user-attachments/assets/f1c2ccc9-87b3-47a5-a706-c3c88ee6a58a" />
+  <br/>
+  <img width="49%" alt="image" src="https://github.com/user-attachments/assets/ba9d0e6d-2609-4b07-ae02-87ec9ce9842b" />
+  <img width="49%" alt="image" src="https://github.com/user-attachments/assets/26e51592-3caf-4def-9c98-ba58d1bfba44" />
+  <br/>
+  <img width="49%" alt="image" src="https://github.com/user-attachments/assets/047720d0-6c7b-4d79-bbbb-d6f3ce8321db" />
+  <img width="49%" alt="image" src="https://github.com/user-attachments/assets/eb1da1f6-0ab1-4ee2-bf61-725c395163e7" />
+</div>
 
-<img width="1919" height="1016" alt="image" src="https://github.com/user-attachments/assets/247f32b7-852f-455c-8c1f-63bb152005ea" />
-<img width="1919" height="1016" alt="image" src="https://github.com/user-attachments/assets/60ba44e8-8719-404d-8332-6ec3f1013f4c" />
+---
 
-<img width="1919" height="1013" alt="image" src="https://github.com/user-attachments/assets/29eee928-1ce8-4980-8274-e111ecf999d6" />
-<img width="1919" height="1016" alt="image" src="https://github.com/user-attachments/assets/f1c2ccc9-87b3-47a5-a706-c3c88ee6a58a" />
-<img width="1919" height="1015" alt="image" src="https://github.com/user-attachments/assets/ba9d0e6d-2609-4b07-ae02-87ec9ce9842b" />
-<img width="1919" height="1017" alt="image" src="https://github.com/user-attachments/assets/26e51592-3caf-4def-9c98-ba58d1bfba44" />
-<img width="1919" height="1012" alt="image" src="https://github.com/user-attachments/assets/047720d0-6c7b-4d79-bbbb-d6f3ce8321db" />
-<img width="1919" height="1019" alt="image" src="https://github.com/user-attachments/assets/eb1da1f6-0ab1-4ee2-bf61-725c395163e7" />
+## Project structure
 
-Project structure
-src/models/: The state models and constants, such as Xiangqi piece definitions and authentication state.
-src/controllers/: The action handlers, such as submitAuth.
-src/views/: The presentational components, such as AuthForm.jsx and XiangqiBoard.jsx.
-src/utils/: The shared utilities, such as validation.js.
-public/: The static assets that are served as-is.
+- src/models/: The state models and constants, such as Xiangqi piece definitions and authentication state.
+- src/controllers/: The action handlers, such as submitAuth.
+- src/views/: The presentational components, such as AuthForm.jsx and XiangqiBoard.jsx.
+- src/utils/: The shared utilities, such as validation.js.
+- public/: The static assets that are served as-is.
 
 ## Prerequisites
 
 - The Node.js LTS (v18+ recommended).
 - The npm CLI (bundled with Node). The project also supports Yarn or pnpm.
 
-Verify versions:
+**Verify versions:**
+```bash
 node -v
 npm -v
-
-# Quick start
-The following commands assume npm. Replace with the Yarn or pnpm equivalents as needed.
-
+```
+## Quick Start
 # 1) Install dependencies.
 npm install
 
@@ -45,4 +51,3 @@ npm run build
 
 # 4) Preview the production build locally (Vite).
 npm run preview
-
