@@ -20,11 +20,23 @@
 
 ## Project structure
 
-- src/models/: The state models and constants, such as Xiangqi piece definitions and authentication state.
-- src/controllers/: The action handlers, such as submitAuth.
-- src/views/: The presentational components, such as AuthForm.jsx and XiangqiBoard.jsx.
-- src/utils/: The shared utilities, such as validation.js.
-- public/: The static assets that are served as-is.
+src
+├── controllers
+│   └── authController.js
+├── models
+│   ├── authModel.js
+│   └── xiangqiModel.js
+├── styles
+│   └── base.css
+├── utils
+│   └── validation.js
+├── views
+│   └── components
+│       ├── AuthForm.jsx
+│       └── XiangqiBoard.jsx
+├── App.jsx
+├── main.jsx
+
 
 ## Prerequisites
 
