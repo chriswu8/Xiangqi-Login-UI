@@ -50,17 +50,24 @@ node -v
 npm -v
 ```
 ## Quick Start
-# 1) Install dependencies.
+1) Install dependencies.
+```bash
 npm install
-
-# 2) Start the development server.
-# For Vite-based setups:
+```
+2) Start the development server.
+For Vite-based setups:
+```bash
 npm run dev
-# For Create React App setups:
+```
+For Create React App setups:
+```bash
 # npm start
-
-# 3) Build a production bundle.
+```
+3) Build a production bundle.
+```bash
 npm run build
-
-# 4) Preview the production build locally (Vite).
+```
+4) Preview the production build locally (Vite).
+```bash
 npm run preview
+```
