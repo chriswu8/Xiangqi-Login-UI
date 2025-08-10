@@ -20,6 +20,7 @@
 
 ## Project structure
 
+```text
 src
 ├── controllers
 │   └── authController.js
@@ -35,8 +36,8 @@ src
 │       ├── AuthForm.jsx
 │       └── XiangqiBoard.jsx
 ├── App.jsx
-├── main.jsx
-
+└── main.jsx
+```
 
 ## Prerequisites
 
