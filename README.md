@@ -61,7 +61,7 @@ npm run dev
 ```
 For Create React App setups:
 ```bash
-# npm start
+npm start
 ```
 3) Build a production bundle.
 ```bash
